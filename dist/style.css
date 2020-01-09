@@ -1,3 +1,44 @@
+body {
+  background-color: #21212E;
+}
 
+nav {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+nav .nav-right {
+  margin-right: 5%;
+}
+nav h1 {
+  color: white;
+  margin-left: 10px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+}
+nav ul li {
+  color: rgba(255, 255, 255, 0.61);
+  width: 100px;
+  text-align: center;
+}
+nav ul li:hover {
+  color: blue;
+}
+
+.contact {
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */

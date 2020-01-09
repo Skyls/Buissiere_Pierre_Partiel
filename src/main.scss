@@ -1,0 +1,47 @@
+body{
+    background-color: #21212E;
+}
+.navbar{
+}
+nav{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-left{
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    .nav-right{
+        margin-right: 5%;
+    }
+
+    h1{color: white;
+        margin-left: 10px;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        font-size: 20px;
+        
+        li{
+            color:rgba(255, 255, 255, 0.61);
+            width: 100px;
+            text-align: center;
+            
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
+
+.contact{
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
