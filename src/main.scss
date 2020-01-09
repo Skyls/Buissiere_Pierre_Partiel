@@ -1,5 +1,5 @@
 body{
-    background-color: #21212E;
+    background-color: #353536;
 }
 .navbar{
 }
@@ -35,13 +35,55 @@ nav{
             &:hover{
                 color: blue;
             }
+
+            
         }
+    }
+
+    .contact{
+        color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+    
+}
+.container{
+display: flex;
+}
+
+.Showcase{
+
+    margin-left: 6%;
+    padding-top: 10%;
+
+    width: 25%;
+    h2{
+        color: white;
+        font-size: 45px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.452);
+    }
+
+    .btn1{
+        border-style: none;
+        color: white;
+        width: 55%;
+        height: 50px;
+        border-radius: 5px;
+        background: linear-gradient(to right,#46C2FF,#BD11FA);
+    }
+    .btn2{
+        width: 43%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgba(255, 0, 0, 0);
+        color: white;
     }
 }
 
-.contact{
-    color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
+.triangleabso{
+    position: absolute;
+    margin-left: 28%;
 }

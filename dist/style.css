@@ -1,5 +1,5 @@
 body {
-  background-color: #21212E;
+  background-color: #353536;
 }
 
 nav {
@@ -33,12 +33,48 @@ nav ul li {
 nav ul li:hover {
   color: blue;
 }
-
-.contact {
+nav .contact {
   color: white;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.Showcase {
+  margin-left: 6%;
+  padding-top: 10%;
+  width: 25%;
+}
+.Showcase h2 {
+  color: white;
+  font-size: 45px;
+}
+.Showcase p {
+  color: rgba(255, 255, 255, 0.452);
+}
+.Showcase .btn1 {
+  border-style: none;
+  color: white;
+  width: 55%;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #46C2FF, #BD11FA);
+}
+.Showcase .btn2 {
+  width: 43%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+}
+
+.triangleabso {
+  position: absolute;
+  margin-left: 28%;
 }
 
 /*# sourceMappingURL=style.css.map */
