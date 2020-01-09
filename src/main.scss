@@ -64,6 +64,7 @@ display: flex;
     }
     p{
         color: rgba(255, 255, 255, 0.452);
+        padding-bottom: 20px;
     }
 
     .btn1{
@@ -73,9 +74,11 @@ display: flex;
         height: 50px;
         border-radius: 5px;
         background: linear-gradient(to right,#46C2FF,#BD11FA);
+        box-shadow: 0px 0px 40px 5px rgb(132, 0, 255);
     }
     .btn2{
-        width: 43%;
+        float: right;
+        width: 40%;
         height: 50px;
         border-radius: 5px;
         background-color: rgba(255, 0, 0, 0);
