@@ -127,4 +127,93 @@ nav .contact {
   padding-bottom: 0px;
 }
 
+.container4 {
+  display: flex;
+}
+.container4 .partner2 {
+  margin-left: 10%;
+  padding-top: 15%;
+  width: 25%;
+}
+.container4 .partner2 h3 {
+  color: white;
+  font-size: 40px;
+}
+.container4 .partner2 p {
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 15px;
+}
+.container4 .partner2 .btn3 {
+  width: 40%;
+  height: 50px;
+  border-style: none;
+  border-radius: 1px;
+  background-color: rgba(0, 236, 153, 0.3);
+  color: #00EC98;
+}
+.container4 .partner2 .btn4 {
+  border-style: none;
+  color: white;
+  width: 55%;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #46C2FF, #BD11FA);
+  box-shadow: 0px 0px 40px 5px #8400ff;
+}
+.container4 .cards-colonne {
+  margin-left: 50px;
+}
+.container4 .cards-colonne .card1, .container4 .cards-colonne .card2 {
+  width: 400px;
+  height: 500px;
+  background-color: #20202C;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px black;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.container4 .cards-colonne .card1 h4, .container4 .cards-colonne .card2 h4 {
+  color: white;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.container4 .cards-colonne .card1 .pencil, .container4 .cards-colonne .card2 .pencil {
+  margin-top: 15%;
+  background-color: #39394d;
+  padding: 30px 319px 30px 40px;
+}
+.container4 .cards-colonne .card1 p, .container4 .cards-colonne .card2 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container4 .cards-colonne1 {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.container4 .cards-colonne1 .card1, .container4 .cards-colonne1 .card2 {
+  width: 400px;
+  height: 500px;
+  background-color: #20202C;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 5px black;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.container4 .cards-colonne1 .card1 h4, .container4 .cards-colonne1 .card2 h4 {
+  color: white;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.container4 .cards-colonne1 .card1 .pencil, .container4 .cards-colonne1 .card2 .pencil {
+  margin-top: 15%;
+  background-color: #39394d;
+  padding: 30px 319px 30px 40px;
+}
+.container4 .cards-colonne1 .card1 p, .container4 .cards-colonne1 .card2 p {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /*# sourceMappingURL=style.css.map */

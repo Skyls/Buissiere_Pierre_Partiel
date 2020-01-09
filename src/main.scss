@@ -4,8 +4,7 @@
 body{
     background: $backcolor ;
 }
-.navbar{
-}
+
 nav{
     padding: 1%;
     display: flex;
@@ -71,13 +70,7 @@ display: flex;
     }
 
     .btn1{
-        border-style: none;
-        color: $light;
-        width: 55%;
-        height: 50px;
-        border-radius: 5px;
-        background: linear-gradient(to right,#46C2FF,#BD11FA);
-        box-shadow: 0px 0px 40px 5px rgb(132, 0, 255);
+        @include button();
     }
     .btn2{
         float: right;
@@ -151,7 +144,61 @@ display: flex;
         
     }
 
-    .cercle{
-        
-    }
 } 
+
+.container4{
+    display: flex;
+
+    .partner2{
+        margin-left: 10%;
+        padding-top: 15%;
+
+        width: 25%;
+        h3{
+            color: $light;
+            font-size: 40px;
+        }
+        p{
+            color: $grey;
+            padding-bottom: 15px;
+        }
+        .btn3{
+            width: 40%;
+            height: 50px;
+            border-style: none;
+            border-radius: 1px;
+            background-color: rgba(0, 236, 153, 0.300);
+            color: $green;
+        }
+        .btn4{
+            @include button();
+        }
+    }
+
+    .cards-colonne{
+        margin-left: 50px;
+        .card1{
+            @include card();
+            margin-bottom: 50px;
+        }
+
+        .card2{
+            @extend .card1;
+        }
+
+    }
+    .cards-colonne1{
+        margin-left: 50px;
+        margin-top: 150px;
+        .card1{
+            @include card();
+            margin-bottom: 50px;
+        }
+
+        .card2{
+            @extend .card1;
+        }
+
+    }
+
+}

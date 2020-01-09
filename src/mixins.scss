@@ -12,3 +12,28 @@
     background: linear-gradient(to right,#46C2FF,#BD11FA);
     box-shadow: 0px 0px 40px 5px rgb(132, 0, 255);
 }
+
+@mixin card {
+    width: 400px;
+    height: 500px;
+    background-color: $cards;
+    border-radius: 10px;
+    
+    @include boxshadow();
+
+    h4{
+        color: $light;
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    .pencil{
+        margin-top: 15%;
+        background-color: rgb(57, 57, 77);
+        padding: 30px 319px 30px 40px;
+    }
+    p{
+        padding-left: 40px;
+        padding-right: 40px;
+        color: $grey;
+    }
+}
