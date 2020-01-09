@@ -1,5 +1,5 @@
 body {
-  background-color: #353536;
+  background: #353536;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav ul {
   font-size: 20px;
 }
 nav ul li {
-  color: rgba(255, 255, 255, 0.61);
+  color: rgba(255, 255, 255, 0.5);
   width: 100px;
   text-align: center;
 }
@@ -40,7 +40,7 @@ nav .contact {
   border-radius: 5px;
 }
 
-.container {
+.container1 {
   display: flex;
 }
 
@@ -54,7 +54,7 @@ nav .contact {
   font-size: 45px;
 }
 .Showcase p {
-  color: rgba(255, 255, 255, 0.452);
+  color: rgba(255, 255, 255, 0.5);
   padding-bottom: 20px;
 }
 .Showcase .btn1 {
@@ -70,6 +70,7 @@ nav .contact {
   float: right;
   width: 40%;
   height: 50px;
+  border-color: white;
   border-radius: 5px;
   background-color: rgba(255, 0, 0, 0);
   color: white;
@@ -78,6 +79,52 @@ nav .contact {
 .triangleabso {
   position: absolute;
   margin-left: 28%;
+}
+
+.container2 {
+  display: flex;
+}
+.container2 .container-logo {
+  width: 50%;
+}
+.container2 .container-logo .logos1 .logo-box {
+  padding: 2%;
+  margin-right: 50px;
+  box-shadow: 0px 0px 40px 5px black;
+  border-radius: 5px;
+}
+.container2 .container-logo .logos2 {
+  margin-left: 100px;
+}
+.container2 .container-logo .logos2 .logo-box {
+  padding: 2%;
+  margin-right: 50px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 40px 5px black;
+  border-radius: 5px;
+}
+.container2 .container-logo .logos3 {
+  margin-left: 140px;
+}
+.container2 .container-logo .logos3 .logo-box {
+  padding: 2%;
+  margin-right: 50px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 40px 5px black;
+  border-radius: 5px;
+}
+.container2 .partner {
+  margin-left: 10%;
+  padding-top: 15%;
+  width: 25%;
+}
+.container2 .partner h3 {
+  color: white;
+  font-size: 40px;
+}
+.container2 .partner p {
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
